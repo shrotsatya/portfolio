@@ -1,0 +1,30 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+
+}
+
+.somewhere-container {
+    margin-top: 5%;
+}
+
+.somewhere-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top:4%;
+    flex-wrap: wrap;
+}
+
+.somewhere-links p {
+    transform: scale(1.0);
+    transition: transform .5s ease-in-out
+}
+
+@media only screen and (min-width:700px) {
+
+    .somewhere-links p:hover {
+        transform: scale(1.2);
+    }
+}

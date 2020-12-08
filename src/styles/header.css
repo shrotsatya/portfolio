@@ -1,0 +1,47 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    padding: .2em 0;
+    justify-content: space-between;
+   }
+   .logo img {
+    display: block;
+   }
+   nav {
+    align-self: center;
+    position:relative;
+    right:60px;
+   }
+   nav>ul{
+       display:inline;
+   }
+   nav>div{
+       display:inline;
+       position: relative;
+       top:3px;
+   }
+   header ul li {
+    display: inline-block;
+    padding: 0 1.4em 0 0;
+    font-size: 0.9em;
+    
+   }
+   header h2{
+       font-family:Roboto
+   }
+   
+   
+   .dark-border{
+    border-bottom: thin solid #222;
+   }
+   .light-border{
+       border-bottom: thin solid #f2f2f2;
+   }
+
+   @media screen and (max-width:701px){
+       nav>div {
+           position: relative;
+           top:-10px;
+       }
+   }
+   

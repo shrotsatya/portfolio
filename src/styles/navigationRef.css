@@ -1,0 +1,32 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute; height: 100%; width: 100%; top: 0px; left: 0px; z-index: 3;
+
+   
+
+    
+}
+
+
+
+
+
+
+
+
+.linksContainer {
+    padding: 20px;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+}
+.links{
+    display: flex;
+    justify-content:center;
+}
+a h2{
+    
+    margin-bottom: 0 ;
+}

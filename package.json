@@ -1,0 +1,65 @@
+{
+  "name": "portfolio",
+  "author": "Prateek Banga<prateekbanga12@gmail.com>",
+  "description": "My personal Portfolio Website.",
+  "homepage": "https://prateek.engineer",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.3.3",
+    "@material-ui/icons": "^4.2.1",
+    "@types/express": "^4.17.1",
+    "@types/node": "12.7.4",
+    "@types/react": "16.9.2",
+    "@types/react-dom": "16.9.0",
+    "@types/react-transition-group": "^4.2.2",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.4.1",
+    "react-toggle": "^4.0.2",
+    "react-transition-group": "^4.2.2",
+    "typescript": "^3.9.5",
+    "use-dark-mode": "^2.3.1",
+    "use-media": "^1.4.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "tslint": "^5.19.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-loader": "^3.5.4",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "^4.0.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "start": "node ./server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts start",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fanatic75/Portfolio.git"
+  }
+}

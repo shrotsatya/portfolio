@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: prateek.engineer
+Token: b7980b6c0aae126fb9982d56088d5acfb0f682d26038830f45ad64b7cc3d5614

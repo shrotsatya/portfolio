@@ -1,0 +1,359 @@
+.greeting-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-animation: bounceInUp 1s ease-in-out;
+  animation: bounceInUp 1s ease-in-out;
+  margin-top:40%;
+}
+
+.greeting-container h1>span {
+  display: block;
+}
+
+.greeting-container h1 {
+  font-family: Nunito;
+  line-height: 1.2;
+}
+
+
+
+
+@media screen and (min-width:700px){
+  .greeting-container h1 {
+    font-size:3.9em;
+  }
+  .greeting-container{
+    margin-top:10%;
+  }
+  
+  .greeting-container p {
+  font-size:1.4rem;
+  }
+}
+.nameLight{
+  
+  animation: colorchangeLight 20s infinite alternate;
+  -webkit-animation: colorchangeLight 20s infinite alternate;
+}
+
+.nameDark{
+  animation:colorchangeDark 20s infinite alternate;
+  -webkit-animation: colorchangeDark 20s infinite alternate;
+}
+
+
+
+
+@-webkit-keyframes colorchangeDark{
+  0% {
+
+    color: #FAB1B1;
+  }
+
+  10% {
+
+    color: #FAB1CC;
+  }
+
+  20% {
+
+    color: #FAB1E7;
+  }
+
+  30% {
+
+    color: #EEB1FA;
+  }
+
+  40% {
+
+    color: #CCB1FA;
+  }
+
+  50% {
+
+    color: #B1BAFA;
+  }
+
+  60% {
+
+    color: #B1DAFA;
+  }
+
+  70% {
+
+    color: #B1FAE7;
+  }
+
+  80% {
+
+    color: #B1FABF;
+  }
+
+  90% {
+
+    color: #C9FAB1;
+  }
+
+  100% {
+
+    color: #FAD5B1;
+  }
+}
+
+
+@keyframes colorchangeDark{
+  0% {
+
+    color: #FAB1B1;
+  }
+
+  10% {
+
+    color: #FAB1CC;
+  }
+
+  20% {
+
+    color: #FAB1E7;
+  }
+
+  30% {
+
+    color: #EEB1FA;
+  }
+
+  40% {
+
+    color: #CCB1FA;
+  }
+
+  50% {
+
+    color: #B1BAFA;
+  }
+
+  60% {
+
+    color: #B1DAFA;
+  }
+
+  70% {
+
+    color: #B1FAE7;
+  }
+
+  80% {
+
+    color: #B1FABF;
+  }
+
+  90% {
+
+    color: #C9FAB1;
+  }
+
+  100% {
+
+    color: #FAD5B1;
+  }
+}
+
+
+
+@-webkit-keyframes colorchangeLight {
+  0% {
+
+    color: blue;
+  }
+
+  10% {
+
+    color: #8e44ad;
+  }
+
+  20% {
+
+    color: #1abc9c;
+  }
+
+  30% {
+
+    color: #d35400;
+  }
+
+  40% {
+
+    color: blue;
+  }
+
+  50% {
+
+    color: #34495e;
+  }
+
+  60% {
+
+    color: blue;
+  }
+
+  70% {
+
+    color: #2980b9;
+  }
+
+  80% {
+
+    color: #f1c40f;
+  }
+
+  90% {
+
+    color: #2980b9;
+  }
+
+  100% {
+
+    color: pink;
+  }
+}
+
+
+@keyframes colorchangeLight {
+  0% {
+
+    color: blue;
+  }
+
+  10% {
+
+    color: #8e44ad;
+  }
+
+  20% {
+
+    color: #1abc9c;
+  }
+
+  30% {
+
+    color: #d35400;
+  }
+
+  40% {
+
+    color: blue;
+  }
+
+  50% {
+
+    color: #34495e;
+  }
+
+  60% {
+
+    color: blue;
+  }
+
+  70% {
+
+    color: #2980b9;
+  }
+
+  80% {
+
+    color: #f1c40f;
+  }
+
+  90% {
+
+    color: #2980b9;
+  }
+
+  100% {
+
+    color: pink;
+  }
+}
+
+
+
+@-webkit-keyframes bounceInUp {
+
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bounceInUp {
+
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
