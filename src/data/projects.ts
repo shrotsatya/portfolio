@@ -10,11 +10,11 @@ const projects: project[] = [
             height: "313px",
             width:"100%",
             backgroundSize: "contain",
-          //  website: "https://fanatic75.github.io/QuizApp"
+          //  website: "https://shrotsatya.github.io/QuizApp"
         },
         title: "E-commerce website",
         content: "A shopping application built using HTML,CSS,JavaScript,NodeJs and MongoDb as a database with admin and user panel.",
-       // github: "https://github.com/fanatic75/QuizApp.git"
+       // github: "https://github.com/shrotsatya/QuizApp.git"
     }, {
         key: 2,
         image: {
@@ -49,7 +49,7 @@ const projects: project[] = [
             backgroundSize: "contain"
         },
         title: "Burger Builder",
-        content: "A Burger builder web app built using ReactJs and Firebase where one can build his buerger and order the same.",
+        content: "A Burger builder web app built using ReactJs and Firebase where one can build his burger and order the same.",
 
     }
 ];

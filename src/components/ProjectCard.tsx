@@ -16,7 +16,7 @@ const ProjectCard: React.FC<project> = (props: project) => {
                 await navigator.share({
                     title: props.title,
                     text: "Check out " + props.title,
-                    url: props.github&&props.github,
+                   // url: props.github&&props.github,
                 })
             }
 
